@@ -5,22 +5,27 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f4f8;
-    color: #333;
+    color: #fff;
+    background-image: url('images/world1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .weather-app {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 2em;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 90%;
     max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 h1 {
-    color: #007bff;
+    color: #fff;
 }
 
 .search-container {
